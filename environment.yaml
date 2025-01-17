@@ -157,7 +157,6 @@ dependencies:
   - libxcrypt=4.4.36=hd590300_1
   - libxml2=2.12.7=hc051c1a_1
   - libzlib=1.2.13=h4ab18f5_6
-  - lightning=2.3.3=pyhd8ed1ab_0
   - lightning-utilities=0.11.5=pyhd8ed1ab_0
   - llvm-openmp=15.0.7=h0cdce71_0
   - looseversion=1.3.0=pyhd8ed1ab_0
@@ -207,7 +206,6 @@ dependencies:
   - python_abi=3.10=4_cp310
   - pytorch=2.0.1=py3.10_cuda11.7_cudnn8.5.0_0
   - pytorch-cuda=11.7=h778d358_5
-  - pytorch-lightning=2.3.3=pyhd8ed1ab_0
   - pytorch-mutex=1.0=cuda
   - pytz=2024.1=pyhd8ed1ab_0
   - pyyaml=6.0.1=py310h2372a71_1
@@ -228,11 +226,9 @@ dependencies:
   - tbb=2021.12.0=h434a139_3
   - threadpoolctl=3.5.0=pyhc1e730c_0
   - tk=8.6.13=noxft_h4845f30_101
-  - torchaudio=2.0.2=py310_cu117
   - torchdata=0.6.1=py310hdeae4e7_2
   - torchmetrics=1.4.0.post0=pyhd8ed1ab_0
   - torchtriton=2.0.0=py310
-  - torchvision=0.15.2=py310_cu117
   - tqdm=4.66.4=pyhd8ed1ab_0
   - typing-extensions=4.12.2=hd8ed1ab_0
   - typing_extensions=4.12.2=pyha770c72_0
@@ -393,7 +389,6 @@ dependencies:
       - pyzmq==26.0.3
       - qtconsole==5.5.2
       - qtpy==2.4.1
-      - rdkit==2024.3.3
       - referencing==0.35.1
       - regex==2024.5.15
       - rfc3339-validator==0.1.4
@@ -430,7 +425,6 @@ dependencies:
       - toolz==0.12.1
       - tornado==6.4.1
       - traitlets==5.14.3
-      - transformers==4.43.3
       - tree==0.2.4
       - typer==0.12.3
       - types-python-dateutil==2.9.0.20240316

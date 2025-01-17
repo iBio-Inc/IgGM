@@ -94,7 +94,6 @@ class AbDesigner(BaseDesigner):
 
     @torch.no_grad()
     def infer(self, chains, *args, **kwargs):
-        assert all(x["id"] in {'H', 'L', 'A'} for x in chains), 'chain ID must be "H", "L" or "A"'
         assert len(chains) in (2, 3), f'FASTA file should contain 2 or 3 chains'
 
         inputs = self._build_inputs(chains)

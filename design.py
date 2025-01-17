@@ -64,12 +64,12 @@ def predict(args):
 
     sequences, ids, _ = parse_fasta(fasta_path)
     assert len(sequences) in (1, 2, 3), f"must be 1, 2 or 3 chains in fasta file"
-    chains = [{"sequence": seq, "id": seq_id} for seq, seq_id in zip(sequences, ids) if seq_id != "A"]
+    chains = [{"sequence": seq, "id": seq_id} for seq, seq_id in zip(sequences, ids) if seq_id != ids[-1]]
     _, basename = os.path.split(fasta_path)
     name = basename.split(".")[0]
     output = f"{args.output}/{name}.pdb"
 
-    aa_seq, atom_cord, atom_cmsk, _, _ = PdbParser.load(pdb_path, chain_id="A")
+    aa_seq, atom_cord, atom_cmsk, _, _ = PdbParser.load(pdb_path, chain_id=ids[-1])
     if args.epitope is None:
         try:
             epitope = cal_ppi(pdb_path, ids)

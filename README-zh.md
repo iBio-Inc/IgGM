@@ -1,11 +1,22 @@
-![header](docs/IgGM.png)
+<div align="center">
+
+# IgGM: A Generative Model for Functional Antibody and Nanobody Design
+
+
+[![Paper](http://img.shields.io/badge/paper-biorxiv.2024.09.19-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2024.09.19.613838)
+[![Conference](http://img.shields.io/badge/ICLR-2025-4b44ce.svg)](https://openreview.net/forum?id=zmmfsJpYcq)
+
+![header](docs/IgGM_dynamic.gif)
+
+</div>
+
 
 --------------------------------------------------------------------------------
 
 [English](./README.md) | 简体中文
 
 ## 简介
-该软件包提供了 IgGM 推理的实现，可以根据给定的框架区序列设计整体结构，以及 CDR 区序列的工具，同时能够针对特定表位设计相应的抗体。
+ICLR 2025 的论文 "IgGM: A Generative Model for Functional Antibody and Nanobody Design"的官方实现，可以根据给定的框架区序列设计整体结构，以及 CDR 区序列的工具，同时能够针对特定表位设计相应的抗体。
 
 我们还提供：
 
@@ -15,13 +26,12 @@
 
 请参阅补充信息以获取方法的详细描述。
 
-如果您有任何问题，请联系IgGM团队，邮箱为 fandiwu@tencent.com。
+如果您有任何问题，请联系IgGM团队，邮箱为 wangrubo@hotmail.com, fandiwu@tencent.com。
 
 商业合作，请联系商务团队，邮箱为 leslielwang@tencent.com。
 
 ## 总览
 
-![header](docs/IgGM_dynamic.gif)
 
 ### 主要结果(UTDAntibody)
 
@@ -135,12 +145,13 @@ python design.py --fasta examples/fasta.files.design/8q95_B_NA_A/8q95_B_NA_A_CDR
 如果你在研究中使用了IgGM, 请引用我们的工作
 
 ```BibTeX
-@article{Wang2024IgGM,
-	author = {Wang, Rubo and Wu, Fandi and Gao, Xingyu and Wu, Jiaxiang and Zhao, Peilin and Yao, Jianhua},
-	title = {IgGM: A Generative Model for Functional Antibody and Nanobody Design},
-	elocation-id = {2024.09.19.613838},
-	year = {2024},
-	doi = {10.1101/2024.09.19.613838},
-	publisher = {Cold Spring Harbor Laboratory}
+@inproceedings{
+wang2025iggm,
+title={Ig{GM}: A Generative Model for Functional Antibody and Nanobody Design},
+author={Wang, Rubo and Wu, Fandi and Gao, Xingyu and Wu, Jiaxiang and Zhao, Peilin and Yao, Jianhua},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=zmmfsJpYcq}
 }
+
 ```

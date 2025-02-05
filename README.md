@@ -1,10 +1,27 @@
-![header](docs/IgGM.png)
+<div align="center">
+
+# IgGM: A Generative Model for Functional Antibody and Nanobody Design
+
+
+[![Paper](http://img.shields.io/badge/paper-biorxiv.2024.09.19-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2024.09.19.613838)
+[![Conference](http://img.shields.io/badge/ICLR-2025-4b44ce.svg)](https://openreview.net/forum?id=zmmfsJpYcq)
+
+![header](docs/IgGM_dynamic.gif)
+
+</div>
+
+
 
 --------------------------------------------------------------------------------
 
 English | [简体中文](./README-zh.md)
 
-This package provides an implementation of IgGM inference, which can design the overall structure based on a given framework region sequence, as well as tools for CDR region sequences, and can design corresponding antibodies against specific epitopes.
+
+
+The official implementation of our ICLR 2025 paper "IgGM: A Generative Model for Functional Antibody and Nanobody Design,"
+which can design the overall structure based on a given framework region sequence,
+as well as tools for CDR region sequences,
+and can design corresponding antibodies against specific epitopes.
 
 We also provide:
 
@@ -16,14 +33,14 @@ should cite the IgGM paper.
 
 Please also refer to the Supplementary Information for a detailed description of the method.
 
-If you have any questions, please contact the IgGM team at fandiwu@tencent.com.
+If you have any questions, please contact the IgGM team at wangrubo@hotmail.com, fandiwu@tencent.com.
 
 For business partnership opportunities, please contact leslielwang@tencent.com.
 
 
 ## OverView
 
-![header](docs/IgGM_dynamic.gif)
+
 
 ### Main Results(SAb-23H2-Ab)
 
@@ -134,14 +151,15 @@ For a completely new antigen, you can specify epitopes to design antibodies that
 If you use IgGM in your research, please cite our paper
 
 ```BibTeX
-@article{Wang2024IgGM,
-	author = {Wang, Rubo and Wu, Fandi and Gao, Xingyu and Wu, Jiaxiang and Zhao, Peilin and Yao, Jianhua},
-	title = {IgGM: A Generative Model for Functional Antibody and Nanobody Design},
-	elocation-id = {2024.09.19.613838},
-	year = {2024},
-	doi = {10.1101/2024.09.19.613838},
-	publisher = {Cold Spring Harbor Laboratory}
+@inproceedings{
+wang2025iggm,
+title={Ig{GM}: A Generative Model for Functional Antibody and Nanobody Design},
+author={Wang, Rubo and Wu, Fandi and Gao, Xingyu and Wu, Jiaxiang and Zhao, Peilin and Yao, Jianhua},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=zmmfsJpYcq}
 }
+
 ```
 
 
